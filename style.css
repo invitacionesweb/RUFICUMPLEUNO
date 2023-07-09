@@ -1,13 +1,13 @@
 :root {
     --color-principal:#FFFFFF;
-    --color-secundario:#CBA87B;
-    --color-terciario:#d07259;
+    --color-secundario:#CAA77B;
+    --color-terciario:#CAA77B;
     --font-principal:'Schoolbell', cursive;
     --font-secundaria:'Nunito Sans', sans-serif;
 }
 
 body {
-    background-color: #F0E7E0;
+    background-color: #EFE6E0;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -112,6 +112,23 @@ header .animales {
      color: var(--color-terciario);
      background-color: transparent;
      border: 1px solid var(--color-terciario);
+     padding: 10px 30PX;
+     text-align: center;
+     text-decoration: none;
+ }
+ .boton3 {
+    border: 1px solid var(--color-terciario);
+    background-color: var(--color-terciario);
+    color: var(--color-principal);
+    padding: 10px 30PX;
+    text-decoration: none;
+    margin-top:0px;
+    border-radius: 50px;
+ }
+ .boton3:hover {
+     color: var(--color-terciario);
+     background-color: var(--color-principal);
+     border: 1px solid var(--color-principal);
      padding: 10px 30PX;
      text-align: center;
      text-decoration: none;
@@ -230,7 +247,7 @@ footer {
     width: 100%;
     height: auto;
     margin: 0;
-    background-color: var(--color-terciario);
+    background-color: var(--color-secundario);
     color: var(--color-principal);
     padding: 40px 0;
     text-align: center;
@@ -302,6 +319,7 @@ footer img {
     
     .segundo {
         background-image: url(./img/Group.png);
+        color: var(--color-terciario);
         width: 100%;
     }
    
